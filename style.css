@@ -1,0 +1,32 @@
+:root {
+    --primaryFont: 'Open Sans, cursive';
+    --textFont: 'Open Sans', sans-serif;
+    --secondaryFont: 'Raleway,sans-serif';
+
+    /** COLORS */
+    --primaryColor: #00adef;
+    --darkGray: #333740;
+    --lightGray: #EBEBEB;
+    --white: #ddd;
+    --black: #000000;
+}
+.commit {
+    width: 99%;
+    border-collapse: collapse;
+  }
+  
+  .commit th {
+    background-color: var(--primaryColor); 
+    color: white; 
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  .commit td {
+    padding: 8px; 
+    border-bottom: 1px solid var(--white); 
+  }
+  
+  .commit tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
