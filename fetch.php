@@ -1,8 +1,10 @@
 <?php
 function get_github_commits()
 {
-    $repo_url = 'https://api.github.com/repos/Francoamador27/get-commits/commits';
-    $access_token = "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";
+    $test_token = get_option('test_token');
+    $test_url = get_option('test_url');
+    $repo_url = $test_url;
+    $access_token = $test_token;
     $args = array(
         'headers' => array(
             'Authorization' => 'token ' . $access_token,
