@@ -1,6 +1,7 @@
 # Git Commit History WordPress Plugin
 
 This plugin allows you to display Git commit history in the WordPress dashboard. Users can configure the GitHub repository URL and access token from the WordPress admin panel.
+ Example of the URL endpoint :https://api.github.com/repos/Francoamador27/get-commits/commits
 
 ## Installation
 
