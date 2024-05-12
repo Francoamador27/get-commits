@@ -6,11 +6,9 @@ Version: 1.0
 Author: Franco Hugo Amador
 */
 
-// Define la función para obtener los commits
 include("fetch.php");
 include("include_style.php");
 
-// include("settings.php");
 
 
 function add_git_commit_page()
